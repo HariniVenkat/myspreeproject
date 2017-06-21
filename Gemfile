@@ -27,10 +27,13 @@ gem 'spree_gateway', '~> 3.2'
 gem 'spree_core', '~> 3.2'
 
 
+#this is static content...
+gem 'spree_static_content', github: 'spree-contrib/spree_static_content'
+#this is for mail settings...
+
+gem 'spree_mail_settings', github: 'spree-contrib/spree_mail_settings'
 
 gem 'spree_i18n', github: 'spree-contrib/spree_i18n', branch: 'master'
-
-
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
